@@ -1,0 +1,6 @@
+gunicorn
+flask==2.3.2
+numpy>=1.24.0
+pandas
+requests
+django
