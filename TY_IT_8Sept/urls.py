@@ -31,7 +31,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     re_path(r'^hello1/', view_hello),
     re_path(r'^hello20/', view_hello_20),
-    re_path(r'^record1/', view_record),
+    re_path(r'', view_record),
     # re_path(r'^django/', view_django),
 
 
